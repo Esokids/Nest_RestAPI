@@ -1,0 +1,23 @@
+GET http://localhost:3000/todo 
+
+###
+
+POST http://localhost:3000/todo
+content-type: application/x-www-form-urlencoded
+
+title=angular homework
+&subtitle=Angular
+
+###
+
+DELETE http://localhost:3000/todo/13
+
+###
+DELETE http://localhost:3000/todo/c96853bc-4d3a-4f97-8a10-a5f0010f9619
+
+var heroes = [
+	{name: "Batman", franchise: "DC" },
+	{name: "Ironman", franchise: "Marvel" },
+	{name: "Thor", franchise: "Marvel" },
+	{name: "Superman", franchise: "DC" }
+];
